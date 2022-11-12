@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portal de Notícias Galáticas</title>
+
+        <link rel="stylesheet" href="./assets/css/style.css">
+
+        <script src="./src/components/cardNews.js" defer></script>
+        
+    </head>
+    <body>
+        <div class="container">
+
+            <div class="card">
+
+                <div class="card_left">
+                    <span>By Cris Morita</span>
+                    <a href="#">Darth Vader contrata Front-ends</a>
+                    <p>Lord Vader anuncia estar procurando novos devs para trabalhar com componentização.</p>
+                </div>
+        
+                <div class="card_right">
+                    <img src="./assets/img/img-DarthVader.jpg" alt="Imagem de Darth Vader apontando para você!">
+                </div>
+
+            </div>
+
+        </div>
+
+        <card-news
+        title="Yoda convence República à utlizar Components"
+        link="https://www.google.com/yoda"
+        content="Yoda se pronuncia e choca a República."
+        photo="./assets/img/img-Yoda.jpg"
+        ></card-news>
+
+        <card-news
+            author="Cris "
+            title="Luke Skywalker diz estar matriculado no Bootcamp da DIO.me"
+            link="https://www.google.com/luke"
+            content="Skywalker Diz estar em transição de carreira e busca formação profissional na DIO."
+            ></card-news>
+
+
+        
+    </body>
+</html>
