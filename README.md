@@ -1,5 +1,5 @@
-# COMEÇANDO NO FRAMEWORK ANGULAR 🅰🪐🤖
-Criando meu primeiro componente com JavaScript, nesse caso, uma tag 'card-news' para facilitar a criação de um blog de notícias:
+# Primeiro Componente Com JavaScript 🤖
+Criando meu primeiro componente com JavaScript, nesse caso, uma tag '<card-news>' para facilitar a criação de um blog de notícias:
 
 ![preview](./.github/preview.png)
 
